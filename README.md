@@ -1,4 +1,4 @@
-# unwrap-wrapped-plsql
+﻿# unwrap-wrapped-plsql
 Using PERL to unwrap wrapped PLSQL code
 
 Software required:
@@ -54,6 +54,6 @@ Open a command prompt and do the following:
     print $unwrapped_text;
 
 Note:
-unwrap.pl: Perl script that unwrap the wrapped PLSQL code.
-pks_csdermsg_main: The name of the package in schema LABOPDEV of database LABOPDEV.
+unwrap_db.pl: Perl script that unwrap the wrapped PLSQL code.
+PKS_CSDERMSG_MAIN: The name of the package in schema LABOPDEV of database LABOPDEV.
 pks_csdermsg_main_unwrapped.sql: unwrapped PLSQL code.
